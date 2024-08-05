@@ -5,13 +5,17 @@
 @import url(/styles/contato.css);
 @import url(/styles/rodape.css);
 
+
 :root{
-    --azul-titulo:#002F52;
+    --azul:#002F52;
     --cor-de-fundo:#EBECEE;
     --branco: white;
     --laranja: #EB9B00;
     --azul-degrade:linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans";
+    --preto: #000000;
+    --branco-degrade:linear-gradient(97.54deg, #ffffff 35.49%, #ffffff 0%);
 
 }
 
