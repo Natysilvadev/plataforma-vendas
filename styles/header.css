@@ -183,5 +183,9 @@
         padding-right: 1.5em;
     }
 
+    .container_texto:hover{
+        color:var(--azul);
+        font-weight: 700;
+    }
 }
     

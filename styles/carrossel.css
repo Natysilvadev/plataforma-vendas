@@ -83,12 +83,22 @@
     font-weight: 700;
 }
 
+.botoes_ancora:hover {
+    background-color: var(--azul);
+    color: var(--branco);
+    font-weight: 700;
+}
+
 .imagem_estrelinhas {
     padding-bottom: 1em;
 }
 
 .descricao_imagem {
     padding-bottom: 0.7em;
+}
+
+br{
+    display: none;
 }
 
 @media screen and (min-width: 1024px) {
@@ -132,7 +142,7 @@
     }
 
     .card {
-        width: 50%;
+        width: 46%;
         margin: 2em auto;
     }
 
@@ -141,17 +151,24 @@
     }
 
     .descricao_imagem{
-        width: 27%;
+        width: auto;
     }
 
     .botoes_ancora{
-    padding: 1.1em 1.5em;  
+    padding: 1.1em auto;  
     }
     
     .descricao{
-        margin-right: -3em;
         text-align: left;
         justify-content: center;
+        width: auto;
+    }
+
+    .card_descricao {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
     }
 }
 

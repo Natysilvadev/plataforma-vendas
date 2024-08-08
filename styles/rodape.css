@@ -11,6 +11,11 @@ hr{
     display: none;
 }
 
+.lista-rodape_item:hover{
+   color: var(--larnaja);
+   font-weight: 700;
+}
+
 @media screen and (min-width: 1024px){
     
     .lista-rodape{
@@ -51,4 +56,19 @@ hr{
         font-size: 14px;
         color: var(--cinza-rodape-texto);
     }
+}
+
+@media screen and (min-width: 1728px){
+    
+    .rodape{
+        display: flex;
+        background-color: var(--cor-de-fundo);
+        margin: 0 12em;
+        padding: 3em;
+    }
+
+    .lista-rodape_link:hover{
+        color: var(--laranja);
+        font-weight: 700;
+     }
 }
